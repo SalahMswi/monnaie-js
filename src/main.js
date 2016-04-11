@@ -7,5 +7,5 @@
     }
     window.updateAppState = function(state) {
         window.history.pushState(state || {}, document.title, 'newstate');
-    }
+    }//modification
 })();
